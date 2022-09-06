@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+     margin: 0%;
+     background-color: rgb(247, 36, 36);
+     top: 0%;
+     bottom: 0%
+
+
+}
+
+.navcabecera {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecera1 {
+      display: flex;
+      justify-content: flex-start;
+
+}
+
+.logo {
+    width: 30%;
+}
+
+.presupuesto {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: all 2s;
+}
+
+.presupuesto:hover {
+    transform: scale(2);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+
+}
+
+.animacionmenu1:hover,
+.animacionmenu2:hover,
+.animacionmenu3:hover,
+.animacionmenu4:hover,
+.animacionmenu5:hover {
+     transform: scale(1.5);
+
+}
+
+.animacionmenu1 {
+    transition: all 2s; 
+    margin-left: 30px ;
+}
+
+.animacionmenu2 {
+    transition: all 2s;
+    margin-left: 30px ;
+}
+
+.animacionmenu3 {
+    transition: all 2s;
+    margin-left: 30px ;
+}
+
+.animacionmenu4 {
+    transition: all 2s;
+    margin-left: 30px ;
+}
+
+.animacionmenu5 {
+    transition: all 2s;
+    margin-left: 30px ;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "somos redes llegar";
+
+}
+/* FOOTER */
+
+footer {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(247, 36, 36);
+}
+
+footer div nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div nav ul li {
+    list-style: none;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+    
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+   
+    
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+.tituloredes {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.somos {
+    grid-area: somos;
+}
+
+.aside {
+    grid-area: redes;
+}
+
+.llegar {
+    grid-area: llegar;
+}
+
+.imgfacebook {
+    width: 20%;
+}
+
+.imginstagram{
+ width: 20%;
+}
+
+.imgtwitter {
+ width: 20%;
+}
+
+.imglinkedin {
+ width: 20%;
+}
+
+.imgcomollegar {
+ width: 100%;
+}
