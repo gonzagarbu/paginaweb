@@ -15,11 +15,13 @@ header {
 .navcabecera {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .cabecera1 {
       display: flex;
       justify-content: flex-start;
+      flex-wrap: wrap;
 
 }
 
@@ -31,6 +33,7 @@ header {
      display: flex;
      justify-content: center;
      align-items: center;
+     flex-wrap: wrap;
      transition: all 2s;
 }
 
@@ -44,6 +47,7 @@ header {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    flex-wrap: wrap;
     
 
 }
@@ -96,6 +100,12 @@ header a {
     grid-template-areas:
     "somos redes llegar";
 
+}
+
+/* SECCIONB */
+
+section {
+    background-color: beige
 }
 /* FOOTER */
 
