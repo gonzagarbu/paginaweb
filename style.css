@@ -7,10 +7,68 @@ header {
      margin: 0%;
      background-color: rgb(247, 36, 36);
      top: 0%;
-     bottom: 0%
+     bottom: 0%;
+     display: grid;
+     grid-template-rows: 75px;
+     grid-template-columns: 1fr 1fr 2fr;
+     gap: 10px;
+     grid-template-areas:
+     "empresa presu menus";
 
+    }
+    
+header h1 {
+    color: white;
+    font-size: 18px;
+}
+
+
+.somos {
+    grid-area: somos;
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.menusdiv {
+    grid-area: menus;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+header div nav ul {
+    display: flex;
+    align-items: center;
+}
+header div nav ul li {
+    list-style: none;
+    
+    
+}
+header div nav ul li a { 
+    text-decoration: none;
+    color: white;
+    
+}
+
+.animacionmenu1:hover {
+    transform: scale(1.5);
 
 }
+
+.animacionmenu1 {
+    transition: all 2s; 
+    margin-left: 30px ;
+}
+
+section {
+    background-image: url(./Multimedia/Fondo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-header-or-sidebar-graphic-art-image.jpg);
+}
+
+/*
 
 .navcabecera {
     display: flex;
@@ -25,7 +83,7 @@ header {
 
 }
 
-.logo {
+.logos {
     width: 30%;
 }
 
@@ -91,7 +149,14 @@ header a {
     color: white;
    
 }
+*/
 
+/* SECCIONB */
+section {
+    background-color: beige
+}
+
+/* FOOTER */
 .grid-container {
     display: grid;
     grid-template-rows: 150px;
@@ -102,12 +167,9 @@ header a {
 
 }
 
-/* SECCIONB */
 
-section {
-    background-color: beige
-}
-/* FOOTER */
+
+
 
 footer {
     margin: 0;
@@ -166,7 +228,7 @@ footer div nav ul li {
     grid-area: somos;
 }
 
-.aside {
+.redes {
     grid-area: redes;
 }
 
